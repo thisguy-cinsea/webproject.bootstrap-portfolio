@@ -1,0 +1,49 @@
+.header{
+    background-color: red;
+    width: 90%;
+    height: 100px;
+    position: static;
+    margin-top: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
+  .headright{
+    text-align: right;
+    font-family: fantasy;
+    text-transform: uppercase;
+    font-size: 22pt;
+    color: white;
+    position: relative;
+    top: 15%;
+    padding-right: 10px;
+  }
+  
+  .headleft{
+    position: relative;
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid red;
+    top: -125%;
+    z-index: 15;
+  }
+  
+  .headRing{
+    position: static;
+  }
+  .ringText{
+    position: relative;
+    z-index: 16;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 75pt;
+    color: red;
+    margin-top: 35px;
+  
+  }
+  
+  .headWhole{
+    margin-top: 5%; 
+  }

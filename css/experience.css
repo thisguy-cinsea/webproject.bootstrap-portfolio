@@ -1,0 +1,42 @@
+.experience{
+    position: absolute;
+    right: 6%;
+    padding-right: 10px;
+    width: 55%;
+    height: auto;
+}
+
+h1{
+    text-align: left;
+    font-family: fantasy;
+    text-transform: uppercase;
+    font-size: 22pt;
+    color: black;
+}
+
+.spacerBar{
+    width: 95%;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+    margin-top: -4%;
+}
+
+.disc:before {
+    font-family: "Webdings";
+    content: " = ";
+}
+
+p.workTitle{
+    text-align: left;
+    font-family: fantasy;
+    text-transform: uppercase;
+    font-size: 12pt;
+    color: black;
+    padding-top:10px
+}
+
+p.details{
+    text-align: justify;
+    text-justify: inter-word;
+}
